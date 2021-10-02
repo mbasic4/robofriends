@@ -10,7 +10,7 @@ export const Card = ({ robot }) => {
         height={200}
       />
       <div>
-        <h2>{robot.name}</h2>
+        <h2 style={{ whiteSpace: 'nowrap' }}>{robot.name}</h2>
         <p>{robot.email}</p>
       </div>
     </div>

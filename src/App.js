@@ -9,7 +9,6 @@ import { requestRobots, setSearchField } from './actions'
 import Header from './components/Header'
 
 const mapStateToProps = state => {
-  console.log(state)
   return {
     searchField: state.searchRobots.searchField,
     robots: state.requestRobots.robots,
