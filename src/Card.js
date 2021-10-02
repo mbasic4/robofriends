@@ -6,8 +6,6 @@ export const Card = ({ robot }) => {
       <img
         alt='robot'
         src={`https://robohash.org/${robot.id}?size=200x200`}
-        width={200}
-        height={200}
       />
       <div>
         <h2 style={{ whiteSpace: 'nowrap' }}>{robot.name}</h2>
