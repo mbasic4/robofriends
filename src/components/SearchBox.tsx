@@ -1,6 +1,11 @@
 import React from 'react'
 
-export const SearchBox = ({ searchField, onSearchChange }) => {
+interface SearchBoxProps {
+  searchField: string
+  onSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => void
+}
+
+export const SearchBox = ({ searchField, onSearchChange }: SearchBoxProps) => {
   return (
     <div className='pa2'>
       <input
