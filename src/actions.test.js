@@ -1,5 +1,4 @@
 import * as actions from './actions'
-import nock from 'nock'
 
 import {
   CHANGE_SEARCHFIELD,
