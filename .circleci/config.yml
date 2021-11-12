@@ -3,6 +3,10 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.7.1-node
+    steps:
+       - checkout
+       - run: npm install
+       - run: npm run build
   test:
     docker:
       - image: circleci/ruby:2.7.1-node
